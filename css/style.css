@@ -40,3 +40,24 @@ header {
     width: 100%;
     margin-bottom: 5px;
 }
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container-pesquisa input {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .container-pesquisa button {
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        background-color: crimson;
+    }
+}
